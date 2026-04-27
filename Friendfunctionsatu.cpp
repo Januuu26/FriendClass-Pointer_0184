@@ -13,3 +13,13 @@ public:
     friend class siswa;
 };
 
+class siswa
+{
+private:
+    int id;
+
+public:
+    void setid(int pid);
+    void displayALL(orang &a);
+};
+
