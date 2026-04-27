@@ -13,4 +13,8 @@ int main(){
     mhs.nim = 1;
     mhs.shownim();
 
-    
+    mahasiswa &refMhs = mhs;
+    refMhs.nim = 2;
+    refMhs.shownim();
+
+}
